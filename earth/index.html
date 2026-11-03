@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Earth · Monolito</title>
+  <meta name="description" content="Sail the seven seas, or put a satellite in orbit.">
+  <meta name="generator" content="Bureau (Monolito)">
+  <meta name="theme-color" content="#f3f2ee">
+  <meta property="og:title" content="Earth · Monolito">
+  <meta property="og:description" content="Sail the seven seas, or put a satellite in orbit.">
+  <link rel="canonical" href="https://monolito.dev/earth/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap">
+  <link rel="stylesheet" href="../style.css?v=6ea805fa37">
+  <style>:root { --accent: #e66100; }</style>
+</head>
+<body class="pages">
+  <header class="bar">
+    <a class="mark" href="../"><span class="slab" aria-hidden="true"></span>Monolito</a>
+    <nav><a href="../manifesto/">Manifesto</a></nav>
+  </header>
+  <main>
+    <div id="mono" class="mono is-explore">
+<div id="stage" class="stage" aria-hidden="true"></div>
+<header class="mono-top">
+  <button id="back" class="chip mono-back" type="button" aria-label="Back to the Earth">← Earth</button>
+  <div class="mono-tools">
+    <nav class="mono-nav"><a href="../manifesto/">Manifesto</a></nav>
+    <button id="mute" class="round" type="button" aria-pressed="false" aria-label="Sound on"></button>
+  </div>
+</header>
+<section class="mono-hero">
+  <h1>Earth</h1>
+  <p>Sail the seven seas, or put a satellite in orbit.</p>
+</section>
+<button id="tag-boat" class="tag" type="button"><span class="tag-dot" aria-hidden="true"></span>Sailboat</button>
+<button id="tag-rocket" class="tag" type="button"><span class="tag-dot" aria-hidden="true"></span>Rocket</button>
+<div class="score" aria-live="polite"><b id="score">0</b><span id="goal"></span><span id="meter" class="meter" aria-hidden="true"><i></i></span></div>
+<div id="toast" class="toast" role="status"></div>
+<section id="card" class="card away" aria-labelledby="card-title" inert>
+  <p id="card-kicker" class="kicker">The rocket</p>
+  <h2 id="card-title">Reach orbit.</h2>
+  <p id="card-text"></p>
+  <button id="go" class="go" type="button">Start</button>
+  <p id="best" class="best"></p>
+</section>
+<p id="hint" class="hint"></p>
+<a class="wnav prev" href="../" aria-label="Previous world: Monolito"><span class="wnav-label"><small>01 / 02</small><b>Monolito</b></span><svg class="wnav-chev" viewBox="0 0 32 88" aria-hidden="true"><g class="wnav-nudge"><path class="ghost" d="M28 4 4 44 28 84"/><path class="ghost" d="M28 4 4 44 28 84"/><path class="line" pathLength="100" d="M28 4 4 44 28 84"/><path class="glint" pathLength="100" d="M28 4 4 44 28 84"/></g></svg></a>
+<p class="mono-foot">© 2026 monolito.dev</p>
+<noscript><p class="mono-hero" style="bottom:auto;top:40%">Earth needs JavaScript and WebGL.</p></noscript>
+</div>
+<script type="module" src="../assets/earth/earth.js?v=7e6ab3f250"></script>
+  </main>
+  <footer class="foot">© 2026 monolito.dev</footer>
+</body>
+</html>

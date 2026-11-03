@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Monolito</title>
+  <meta name="description" content="monolito.dev, under construction.">
+  <meta name="generator" content="Bureau (Monolito)">
+  <meta name="theme-color" content="#f3f2ee">
+  <meta property="og:title" content="Monolito">
+  <meta property="og:description" content="monolito.dev, under construction.">
+  <link rel="canonical" href="https://monolito.dev/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap">
+  <link rel="stylesheet" href="./style.css?v=6ea805fa37">
+  <style>:root { --accent: #e66100; }</style>
+</head>
+<body class="pages">
+  <header class="bar">
+    <a class="mark" href="./"><span class="slab" aria-hidden="true"></span>Monolito</a>
+    <nav><a href="manifesto/">Manifesto</a></nav>
+  </header>
+  <main>
+    <div id="mono" class="mono is-explore">
+<div id="stage" class="stage" aria-hidden="true"></div>
+<header class="mono-top">
+  <button id="back" class="chip mono-back" type="button" aria-label="Back to the planet">← Planet</button>
+  <div class="mono-tools">
+    <nav class="mono-nav"><a href="manifesto/">Manifesto</a></nav>
+    <button id="mute" class="round" type="button" aria-pressed="false" aria-label="Sound on"></button>
+  </div>
+</header>
+<section class="mono-hero">
+  <h1>Monolito</h1>
+  <p>Under construction. This planet is yours: build on it, paint it, and meet MINITRON.</p>
+  <div class="mono-actions"><button id="build" class="go" type="button">Make it yours</button><a class="mono-more" href="manifesto/">Read the manifesto</a></div>
+</section>
+<button id="tag-crane" class="tag" type="button"><span class="tag-dot" aria-hidden="true"></span>Crane</button>
+<button id="tag-minitron" class="tag" type="button"><span class="tag-dot" aria-hidden="true"></span>MINITRON</button>
+<div class="score" aria-live="polite"><b id="score">0</b><span id="goal"></span></div>
+<div id="toast" class="toast" role="status"></div>
+<section id="card" class="card away" aria-labelledby="card-title" inert>
+  <p class="kicker">The crane</p>
+  <h2 id="card-title">Stack the Monolito.</h2>
+  <p id="card-text"></p>
+  <fieldset id="paints" class="paints" role="radiogroup" aria-label="Crane paint"><legend>Paint</legend></fieldset>
+  <button id="go" class="go" type="button">Start stacking</button>
+  <p id="best" class="best"></p>
+</section>
+<section id="builder" class="card builder away" aria-label="Your planet" inert>
+  <div class="builder-head"><p class="kicker">Your planet</p><div class="tabs" role="tablist"><button id="tab-build" role="tab" type="button" aria-selected="true">Build</button><button id="tab-colors" role="tab" type="button" aria-selected="false">Colors</button></div></div>
+  <div id="pane-build">
+  <div id="pieces" class="pieces" role="radiogroup" aria-label="Piece"></div>
+  <fieldset id="build-paints" class="paints" role="radiogroup" aria-label="Paint"><legend>Paint</legend></fieldset>
+  <div class="build-foot"><span id="build-count" class="best"></span><button id="build-clear" class="textbutton" type="button">Start over</button></div>
+  </div>
+  <div id="pane-colors" hidden>
+  <div id="looks" class="looks"></div>
+  <div class="build-foot"><span class="best">kept in this browser</span><button id="look-reset" class="textbutton" type="button">Back to the first colors</button></div>
+  </div>
+</section>
+<p id="hint" class="hint"></p>
+<a class="wnav next" href="earth/" aria-label="Next world: Earth"><span class="wnav-label"><small>02 / 02</small><b>Earth</b></span><svg class="wnav-chev" viewBox="0 0 32 88" aria-hidden="true"><g class="wnav-nudge"><path class="ghost" d="M4 4 28 44 4 84"/><path class="ghost" d="M4 4 28 44 4 84"/><path class="line" pathLength="100" d="M4 4 28 44 4 84"/><path class="glint" pathLength="100" d="M4 4 28 44 4 84"/></g></svg></a>
+<p class="mono-foot">© 2026 monolito.dev</p>
+<noscript><p class="mono-hero" style="bottom:auto;top:40%">monolito.dev is under construction.</p></noscript>
+</div>
+<script type="module" src="assets/planet/planet.js?v=8920461526"></script>
+  </main>
+  <footer class="foot">© 2026 monolito.dev</footer>
+</body>
+</html>

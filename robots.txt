@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://monolito.dev/sitemap.xml
